@@ -14,19 +14,6 @@
 
 ---
 
-## 🖼️ Demo
-
-![Weather-Now Screenshot](./assets/demo-screenshot.png)
-
----
-
-## 🌐 Live Site
-
-> [Try Weather-Now Live](https://your-deployment-url.com)  
-> *(Replace with actual deployed URL if available)*
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
@@ -51,10 +38,6 @@
 3. **Set up API Key**  
    - Sign up at [OpenWeatherMap](https://openweathermap.org/api) and get your API key.
    - Create a `.env` file in the project root:
-     ```
-     REACT_APP_WEATHER_API_KEY=your_api_key_here
-     ```
-   - *(Adapt instructions based on your actual setup)*
 
 4. **Run the app locally:**
    ```bash
@@ -75,18 +58,14 @@
 ## 📁 Project Structure
 
 ```
-Weather-Now/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   ├── App.js
-│   └── ...
-├── assets/
-│   └── demo-screenshot.png
-├── README.md
-├── package.json
-└── ...
+src/
+├── App.jsx
+├── main.jsx
+├── index.css
+└── components/
+    ├── SearchBar.jsx
+    └── WeatherCard.jsx
+
 ```
 *(Structure may vary depending on your stack.)*
 
